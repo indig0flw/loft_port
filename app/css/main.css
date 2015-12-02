@@ -1,0 +1,190 @@
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #4a545d;
+	background: url(../img/bg.jpg) no-repeat center fixed;
+	background-size: cover;
+}
+* {
+	box-sizing: border-box;
+}
+/*Header - начало*/
+.head-wrap {
+	max-width: 1200px;
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+.page-header {
+	background-color: #706e6e;
+	height: 90px;
+	width: 100%;
+	position: relative;
+	/*margin-top: -17px;*/
+}
+
+.page-header:after{
+	content: "";
+	height: 7px;
+	background-color: #ffffff;
+	display: block;
+}
+
+.page-header .header-logo-link {
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+
+.page-header .header-logo-text {
+	position: absolute;
+	left: -9999px;
+}
+
+.page-header .socials {
+	position: absolute;
+	right: 0;
+	top: 25px;
+}
+/*Header - конец*/
+
+/*Icons - начало*/
+.socials {
+	margin: 0;
+	padding: 0;
+	min-width: 250px;
+}
+
+.socials .social-icon {
+	list-style: none;
+	display: inline-block;
+	height: 44px;
+	width: 42px;
+	margin-left: 12px;
+}
+
+.socials .social-icon:first-child {
+	margin-left: 0;
+}
+
+.socials .social-link {
+	display: block;
+	height: 44px;
+	width: 42px;
+	text-indent: -9999px;
+}
+
+.fb {
+ background: url(../img/finsp.png);
+ background-position: -5px -5px;
+
+}
+.fb:hover {
+ background: url(../img/finsp.png);
+ background-position: -57px -5px;
+}
+
+.vk {
+ background: url(../img/finsp.png);
+ background-position: -5px -113px;
+}
+.vk:hover {
+ background: url(../img/finsp.png);
+ background-position: -57px -113px;
+}
+
+.tw {
+ background: url(../img/finsp.png);
+ background-position: -109px -5px;
+}
+.tw:hover {
+ background: url(../img/finsp.png);
+ background-position: -109px -59px;
+}
+.git {
+ background: url(../img/finsp.png);
+ background-position: -5px -59px;
+}
+.git:hover {
+ background: url(../img/finsp.png);
+ background-position: -57px -59px;
+}
+/*Icons - конец*/
+
+
+/*Контент - начало*/
+
+.main-content {
+	width: 960px;
+	min-height: 100%;
+	position: relative;
+	margin: 0 auto;
+}
+.navigation {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.contacts {
+	display: block;
+	float: left;
+	clear: left;
+	width: 200px;
+	height: 200px;
+	border: 1px solid black;
+}
+
+.content {
+	width: 200px;
+	height: 200px;
+	border: 1px solid green;
+}
+
+.menu-wrapper {
+	margin-top: 20px;
+	width: 300px;
+	border: 1px solid blue;
+	float: left;
+}
+
+.content-wrapper {
+	margin-top: 20px;
+	margin-left: 30px;
+	width: 300px;
+	float: left;
+	border: 1px solid red;
+}
+/*Контент - конец*/
+
+
+
+
+/*Футер внизу - начало*/
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	min-width: 970px;
+	height: auto!important;
+}
+
+.wrapper:after{
+	content: "";
+	height: 61px;
+	display: block;
+}
+
+.page-footer{
+	min-width: 970px;
+	height: 61px;
+	margin-top: -61px;
+	background-color: #fff;
+}
+/*Футер внизу - конец*/
