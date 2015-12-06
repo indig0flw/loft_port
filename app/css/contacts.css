@@ -1,0 +1,145 @@
+.main-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.contacts-form-wrap {
+    float: left;
+    width: 400px;
+    margin-bottom: 15px;
+    /*    margin-top: 35px;*/
+}
+
+.name-input-item {
+    float: left;
+}
+
+.email-input-item {
+    float: right;
+}
+
+.label {
+    display: block;
+    font: 14px 'open_sansregular' sans-serif;
+    margin-bottom: 10px;
+}
+
+.input-item {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(214, 213, 211);
+    border-radius: 4px;
+    background-image: -moz-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
+    box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
+    font: 12px 'open_sanslight' sans-serif;
+    height: 40px;
+    width: 190px;
+}
+
+.textarea {
+    height: 183px;
+    width: 100%;
+    resize: none;
+    padding: 8px 5px 8px 5px;
+}
+
+.captcha-wrap {
+    width: 195px;
+    height: 83px;
+/*    border: 1px solid rgba(114, 112, 112, 0.35);
+    border-radius: 4px;*/
+    float: left;
+    margin-left: -3px;
+    margin-top: -3px;
+    background: url(../img/spritesheet.png) -115px -5px;
+}
+
+.captcha-input {
+    width: 190px;
+    float: right;
+    padding: 5px 30px 5px 5px;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 8px 25px 8px 25px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom: 90px;
+}
+
+.submit {
+    float: left;
+    margin-left: 30px;
+    border: 1px solid #49b294;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(67, 183, 150) 0%, rgb(128, 232, 203) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(67, 183, 150) 0%, rgb(128, 232, 203) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(67, 183, 150) 0%, rgb(128, 232, 203) 100%);
+    box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    font-family: "open_sanssemibold";
+    color: rgb(30, 116, 101);
+    line-height: 1.571;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+.submit:hover {
+    border: 1px solid #66a48a;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(58, 160, 135) 0%, rgb(95, 220, 189) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(58, 160, 135) 0%, rgb(95, 220, 189) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(58, 160, 135) 0%, rgb(95, 220, 189) 100%);
+    box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
+}
+
+.reset {
+    float: right;
+    border: 1px solid #b6b6b6;
+    margin-right: 30px;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+    font-size: 14px;
+    font-family: "open_sanssemibold";
+    color: rgb(114, 112, 112);
+    line-height: 1.571;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+.reset:hover {
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
+    box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+    border: 1px solid #c3c3c3;
+}
+
+::-webkit-input-placeholder {
+    font-family: 'open_sanslight';
+    font-size: 12px;
+}
+
+::-moz-placeholder {
+    font-family: 'open_sanslight';
+    font-size: 12px;
+}
+
+:-moz-placeholder {
+    font-family: 'open_sanslight';
+    font-size: 12px;
+}
+
+:-ms-input-placeholder {
+    font-family: 'open_sanslight';
+    font-size: 12px;
+}

@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/contacts.css">
     <!-- Modernizr -->
     <script src="bower/modernizr/modernizr.js"></script>
 </head>
@@ -53,11 +54,11 @@
             <aside class="menu-wrapper">
                 <nav class="navigation">
                     <ul class="navigtion-list">
-                        <li class="navigation-item current"><a href="index.html" class="navigation-link">Обо мне</a>
+                        <li class="navigation-item"><a href="index.html" class="navigation-link">Обо мне</a>
                         </li>
                         <li class="navigation-item"><a href="portfolio.html" class="navigation-link">Мои работы</a>
                         </li>
-                        <li class="navigation-item"><a href="contacts.html" class="navigation-link">Связаться со мной</a>
+                        <li class="navigation-item current"><a href="contacts.html" class="navigation-link">Связаться со мной</a>
                         </li>
                     </ul>
                 </nav>
@@ -80,76 +81,34 @@
             <!-- Здесь начинается контентная часть -->
             <section class="main-content-wrapper">
                 <article class="content">
-                    <h2 class="content-header">Основная информация</h2>
-                    <!-- Фото начало -->
-                    <div class="content-body clearfix">
-                        <div class="image-wrap">
-                            <div class="photo-box"><img src="img/face.png" height="180" width="143" alt="Anton Lalakin" class="photo"></div>
+                    <h2 class="content-header">У вас интересный проект? Напишите мне!</h2>
+                    <!--    <div class="form-wrap"> -->
+                    <form action="#" name="contacts-form" class="main-form">
+                        <div class="contacts-form-wrap">
+                            <div class="name-input-item">
+                                <label class="label" for="name">Имя</label>
+                                <input class="input-item" type="text" name="user-name" placeholder="Как к Вам обращаться?" />
+                            </div>
+                            <div class="email-input-item">
+                                <label class="label" for="email">Email</label>
+                                <input class="input-item" type="text" name="email" placeholder="Куда мне писать?" />
+                            </div>
                         </div>
-                        <!-- Фото конец -->
-                        <div class="info-box">
-                            <ul class="info-list">
-                                <li class="info-item"><span class="info-span-bold">Меня зовут:</span>
-                                    <span class="info-span-small">Антон Лалакин</span>
-                                </li>
-                                <li class="info-item"><span class="info-span-bold">Мой возраст: </span>
-                                    <span class="info-span-small">29 лет</span>
-                                </li>
-                                <li class="info-item"><span class="info-span-bold">Мой город: </span>
-                                    <span class="info-span-small">Москва</span>
-                                </li>
-                                <li class="info-item">
-                                    <span class="info-span-bold">Моя специализация: </span>
-                                    <span class="info-span-small">Frontend разработчик</span>
-                                </li>
-                                <li class="info-item">
-                                    <span class="info-span-bold main-skills">Ключевые навыки: </span>
-                                    <ul class="skills-list">
-                                        <li class="skill">HTML5</li>
-                                        <li class="skill">CSS3</li>
-                                        <li class="skill">JavaScript</li>
-                                        <li class="skill">SEO</li>
-                                        <li class="skill">Photoshop</li>
-                                        <li class="skill">Web design</li>
-                                    </ul>
-                                </li>
-                            </ul>
+                        <div class="contacts-form-wrap">
+                            <label class="label" for="message">Сообщение</label>
+                            <textarea class="input-item textarea" name="message" placeholder="Кратко в чём суть"></textarea>
                         </div>
-                    </div>
-                </article>
-                <article class="content">
-                    <h2 class="content-header">Опыт работы</h2>
-                    <ul class="block">
-                        <li class="list-text-expedu work-exp">
-                            <span>Millward Brown</span>
-                            <span>2009 - 2012</span>
-                        </li>
-                        <li class="list-text-expedu work-exp">
-                            <span>ЗАО Бизнес Аналитика МК</span>
-                            <span>2012 - 2015</span>
-                        </li>
-                    </ul>
-                </article>
-                <article class="content">
-                    <h2 class="content-header">Образование</h2>
-                    <ul class="block">
-                        <li class="list-text-expedu university">
-                            <span>РХТУ им. Менделеева</span>
-                            <span>2003 - 2007</span>
-                        </li>
-                        <li class="list-text-expedu university">
-                            <span>МФЮА</span>
-                            <span>2009 - 2013</span>
-                        </li>
-                        <li class="list-text-expedu courses">
-                            <span>"Специалист" при МГТУ им.Баумана</span>
-                            <span>2013 - 2015</span>
-                        </li>
-                        <li class="list-text-expedu courses">
-                            <span>Курсы Loftschool.ru</span>
-                            <span>Ноябрь 2014 - настаоящее время</span>
-                        </li>
-                    </ul>
+                        <div class="contacts-form-wrap">
+                            <label class="label" for="captcha">Введите код, указанный на картинке</label>
+                            <div class="captcha-wrap"></div>
+                            <input class="input-item captcha-input" type="text" name="captcha" placeholder="Введите код" />
+                        </div>
+                        <div class="contacts-form-wrap">
+                            <button class="buttons submit" type="submit">Отправить</button>
+                            <button class="buttons reset" type="reset">Очистить</button>
+                        </div>
+                    </form>
+                    <!--     </div> -->
                 </article>
             </section>
             <!-- Здесь заканчивается контентная часть -->

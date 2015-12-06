@@ -1,0 +1,126 @@
+.push-down {
+    margin-bottom: 40px;
+}
+
+.site-info-main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.site-image-link {
+    display: block;
+    width: 165px;
+    height: 120px;
+}
+
+.site-info-wrapper {
+    width: 165px;
+    border: 1px solid #c4c4c4;
+    float: left;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07);
+    overflow: hidden;
+    margin-bottom: 65px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.site-image {
+    width: 165px;
+    height: 120px;
+    display: inline-block;
+    margin-bottom: -4px;
+    padding: 0;
+    background: url(../img/site-pic-1.png);
+    cursor: pointer;
+    opacity: 0.41;
+}
+
+.site-image:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.site-name {
+    width: 165px;
+    display: inline-block;
+    margin: 0;
+}
+
+.site-description {
+    width: 165px;
+    display: inline-block;
+    margin: 0;
+    background: #fff;
+    font-family: "open_sanslight";
+    font-size: 12px;
+    text-align: center;
+}
+
+.site-link {
+    text-decoration: none;
+    display: block;
+    color: #727070;
+    background-color: rgba(65, 64, 64, 0.071);
+    font-size: 13px;
+    font-family: "open_sanssemibold";
+    line-height: 1.692;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+    -moz-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
+    -webkit-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
+    -ms-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
+    text-align: center;
+}
+
+.site-link:hover {
+    text-decoration: underline;
+}
+
+.add-new {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    width: 168px;
+    height: 137px;
+    background: url(../img/add-new.png);
+}
+
+.add-new:hover {
+    display: inline-block;
+    float: left;
+    margin: 5px;
+    overflow: hidden;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    width: 168px;
+    height: 137px;
+    background: url(..//img/add-new-hover.png);
+}
+
+.add-new-link {
+    display: block;
+    width: 168px;
+    height: 137px;
+}
+
+.site-two {
+	background: url(../img/site-two.png);
+}
+
+.site-three {
+	background: url(../img/site-three.png);
+}
+
+.site-four {
+	background: url(../img/site-four.png);
+}
+
+.site-five {
+	background: url(../img/site-five.png);
+}
