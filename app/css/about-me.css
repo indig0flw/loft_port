@@ -1,4 +1,4 @@
-Фото - начало*/ .photo-wrap {
+ .photo-wrap {
     float: left;
     margin-left: 41px;
     margin-top: 41px;
@@ -121,13 +121,13 @@
     margin-bottom: -2px;
 }
 
-.list-text-expedu span {
+.list-text-expedu .expedu-span {
     display: block;
     max-width: 470px;
     margin-left: 96px;
 }
 
-.list-text-expedu span:first-child {
+.list-text-expedu .expedu-span:first-child {
     font-family: open_sanssemibold;
 }
 
@@ -175,6 +175,6 @@
     height: 0px;
 }
 
-.block {
+.expedu-wrap {
     list-style-type: none;
 }

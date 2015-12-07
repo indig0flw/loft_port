@@ -152,11 +152,6 @@ body {
 }
 
 
-/*.content-wrapper .content:last-child {
-    margin-bottom: 0;
-}*/
-
-
 /*Контент - конец*/
 
 
@@ -322,12 +317,9 @@ body {
     height: 38px;
     width: 250px;
     text-decoration: none;
-    /* padding-left: 20px;
-    padding-top: 10px;*/
     line-height: 1.2;
     color: #727070;
     font-family: "open_sanssemibold" sans-serif;
-    /* overflow: hidden;*/
 }
 
 .contacts-link:hover {

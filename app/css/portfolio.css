@@ -82,25 +82,17 @@
 .add-new {
     display: inline-block;
     float: left;
-    margin: 5px;
     overflow: hidden;
     margin-bottom: 35px;
     margin-left: 15px;
     width: 168px;
     height: 137px;
     background: url(../img/add-new.png);
+    opacity: 0.41
 }
 
 .add-new:hover {
-    display: inline-block;
-    float: left;
-    margin: 5px;
-    overflow: hidden;
-    margin-bottom: 35px;
-    margin-left: 15px;
-    width: 168px;
-    height: 137px;
-    background: url(..//img/add-new-hover.png);
+    opacity: 1
 }
 
 .add-new-link {
