@@ -163,20 +163,25 @@ body {
     padding-top: 15px;
     height: 55px;
     display: block;
-    /*border-radius: 6px 6px 0 0;*/
+    border-radius: 6px 6px 0 0;
     -webkit-border-radius: 6px 6px 0 0;
     -moz-border-radius: 6px 6px 0 0;
     background-image: -moz-linear-gradient( 90deg, rgb(123, 120, 120) 0%, rgb(169, 168, 168) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(123, 120, 120) 0%, rgb(169, 168, 168) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(123, 120, 120) 0%, rgb(169, 168, 168) 100%);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
-    font-family: "open_sanssemibold" sans-serif;
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 24px;
     color: rgb(238, 237, 236);
     line-height: 0.917;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.004);
 }
+
 
 
 /*Эффекты контента -конец*/
@@ -250,12 +255,17 @@ body {
     padding-top: 20px;
     border-bottom: 1px solid #c3c3c3;
     font-size: 20px;
-    font-family: "open_sanssemibold" sans-serif;
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     color: #727070;
     line-height: 1.1;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
+
 
 .navigation-link:hover {
     background-image: -moz-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
@@ -293,12 +303,17 @@ body {
     background-image: -ms-linear-gradient( 90deg, rgb(220, 177, 93) 0%, rgb(244, 204, 126) 90%);
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.17), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
     font-size: 20px;
-    font-family: "open_sanssemibold" sans-serif;
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     color: rgb(208, 152, 44);
     line-height: 1.1;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
 }
+
 
 .contacts-list-item {
     padding: 0;
@@ -319,8 +334,13 @@ body {
     text-decoration: none;
     line-height: 1.2;
     color: #727070;
-    font-family: "open_sanssemibold" sans-serif;
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
+
 
 .contacts-link:hover {
     background-image: -moz-linear-gradient( 90deg, rgb(224, 197, 145) 0%, rgba(251, 249, 249, 0) 100%);
@@ -426,9 +446,14 @@ body {
     margin: 0;
     padding-left: 30px;
     padding-top: 17px;
-    font-family: "open_sanslight" sans-serif;
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 12px;
 }
+
 
 .login-link {
     display: inline-block;
@@ -437,7 +462,11 @@ body {
     padding-left: 30px;
     padding-top: 7px;
     text-decoration: none;
-    font-family: "open_sansbold" sans-serif;
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 14px;
     color: #9c9c9c;
     font-weight: bold;
@@ -449,6 +478,7 @@ body {
     background: url(../img/locked.png) no-repeat;
     background-position: left center;
 }
+
 
 .login-link:hover {
     background: url(../img/unlocked.png) no-repeat left center;

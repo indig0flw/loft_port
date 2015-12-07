@@ -22,7 +22,12 @@
 
 .label {
     display: block;
-    font: 14px 'open_sansregular' sans-serif;
+    font-size: 14px;
+    font-family: 'open_sansregular', sans-serif;
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff'), url('opensans-regular-webfont.ttf') format('truetype'), url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
     margin-bottom: 10px;
 }
 
@@ -35,10 +40,16 @@
     background-image: -webkit-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
     background-image: -ms-linear-gradient( 90deg, rgb(233, 231, 231) 0%, rgba(251, 249, 249, 0) 100%);
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
-    font: 12px 'open_sanslight' sans-serif;
+    font-size: 12px;
+    font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     height: 40px;
     width: 190px;
 }
+
 
 .textarea {
     height: 183px;
@@ -84,11 +95,16 @@
     background-image: -ms-linear-gradient( 90deg, rgb(67, 183, 150) 0%, rgb(128, 232, 203) 100%);
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.16), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
     font-size: 14px;
-    font-family: "open_sanssemibold";
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     color: rgb(30, 116, 101);
     line-height: 1.571;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
+
 
 .submit:hover {
     border: 1px solid #66a48a;
@@ -109,11 +125,16 @@
     background-image: -ms-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
     font-size: 14px;
-    font-family: "open_sanssemibold";
+    font-family: 'open_sanssemibold';
+    src: url('opensans-semibold-webfont.eot');
+    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
     color: rgb(114, 112, 112);
     line-height: 1.571;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
+
 
 .reset:hover {
     border-radius: 5px;
@@ -126,20 +147,36 @@
 
 ::-webkit-input-placeholder {
     font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 12px;
 }
 
 ::-moz-placeholder {
     font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 12px;
 }
 
 :-moz-placeholder {
     font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 12px;
 }
 
 :-ms-input-placeholder {
     font-family: 'open_sanslight';
+    src: url('opensans-light-webfont.eot');
+    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
     font-size: 12px;
 }
