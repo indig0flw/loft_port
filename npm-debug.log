@@ -1,0 +1,281 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'i', 'gulp', '-D' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 warn package.json portfolio@ No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'gulp', null ]
+7 verbose cache add name=undefined spec="gulp" args=["gulp",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'gulp',
+8 verbose parsed url   path: 'gulp',
+8 verbose parsed url   href: 'gulp' }
+9 silly lockFile 9750c68d-gulp gulp
+10 verbose lock gulp /home/indy/.npm/9750c68d-gulp.lock
+11 silly lockFile 9750c68d-gulp gulp
+12 silly lockFile 9750c68d-gulp gulp
+13 verbose addNamed [ 'gulp', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 72f4391e-gulp gulp@
+16 verbose lock gulp@ /home/indy/.npm/72f4391e-gulp.lock
+17 silly addNameRange { name: 'gulp', range: '*', hasData: false }
+18 verbose url raw gulp
+19 verbose url resolving [ 'https://registry.npmjs.org/', './gulp' ]
+20 verbose url resolved https://registry.npmjs.org/gulp
+21 info trying registry request attempt 1 at 12:41:09
+22 http GET https://registry.npmjs.org/gulp
+23 http 200 https://registry.npmjs.org/gulp
+24 silly registry.get cb [ 200,
+24 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 silly registry.get     etag: '"3NUR43OWUKMX3BPZ8W3FXNYDG"',
+24 silly registry.get     'content-type': 'application/json',
+24 silly registry.get     'cache-control': 'max-age=300',
+24 silly registry.get     'content-length': '108638',
+24 silly registry.get     'accept-ranges': 'bytes',
+24 silly registry.get     date: 'Tue, 15 Dec 2015 09:41:10 GMT',
+24 silly registry.get     via: '1.1 varnish',
+24 silly registry.get     age: '14',
+24 silly registry.get     connection: 'keep-alive',
+24 silly registry.get     'x-served-by': 'cache-fra1244-FRA',
+24 silly registry.get     'x-cache': 'HIT',
+24 silly registry.get     'x-cache-hits': '1',
+24 silly registry.get     'x-timer': 'S1450172470.546460,VS0,VE0',
+24 silly registry.get     vary: 'Accept' } ]
+25 silly addNameRange number 2 { name: 'gulp', range: '*', hasData: true }
+26 silly addNameRange versions [ 'gulp',
+26 silly addNameRange   [ '0.0.1',
+26 silly addNameRange     '0.0.2',
+26 silly addNameRange     '0.0.3',
+26 silly addNameRange     '0.0.4',
+26 silly addNameRange     '0.0.5',
+26 silly addNameRange     '0.0.7',
+26 silly addNameRange     '0.0.8',
+26 silly addNameRange     '0.0.9',
+26 silly addNameRange     '0.1.0',
+26 silly addNameRange     '0.2.0',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.1.0',
+26 silly addNameRange     '1.2.0',
+26 silly addNameRange     '1.2.1',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.2.0',
+26 silly addNameRange     '2.3.0',
+26 silly addNameRange     '2.4.0',
+26 silly addNameRange     '2.4.1',
+26 silly addNameRange     '2.6.0',
+26 silly addNameRange     '2.6.1',
+26 silly addNameRange     '2.7.0',
+26 silly addNameRange     '3.0.0',
+26 silly addNameRange     '3.1.1',
+26 silly addNameRange     '3.1.2',
+26 silly addNameRange     '3.1.3',
+26 silly addNameRange     '3.1.4',
+26 silly addNameRange     '3.2.0',
+26 silly addNameRange     '3.2.1',
+26 silly addNameRange     '3.2.2',
+26 silly addNameRange     '3.2.3',
+26 silly addNameRange     '3.2.4',
+26 silly addNameRange     '3.2.5',
+26 silly addNameRange     '3.3.0',
+26 silly addNameRange     '3.3.1',
+26 silly addNameRange     '3.3.2',
+26 silly addNameRange     '3.3.4',
+26 silly addNameRange     '3.4.0',
+26 silly addNameRange     '3.5.0',
+26 silly addNameRange     '3.5.1',
+26 silly addNameRange     '3.5.2',
+26 silly addNameRange     '3.5.5',
+26 silly addNameRange     '3.5.6',
+26 silly addNameRange     '3.6.0',
+26 silly addNameRange     '3.6.1',
+26 silly addNameRange     '3.6.2',
+26 silly addNameRange     '3.7.0',
+26 silly addNameRange     '3.8.0',
+26 silly addNameRange     '3.8.1',
+26 silly addNameRange     '3.8.2',
+26 silly addNameRange     '3.8.3',
+26 silly addNameRange     '3.8.4',
+26 silly addNameRange     '3.8.5',
+26 silly addNameRange     '3.8.6',
+26 silly addNameRange     '3.8.7',
+26 silly addNameRange     '3.8.8',
+26 silly addNameRange     '3.8.9',
+26 silly addNameRange     '3.8.10',
+26 silly addNameRange     '3.8.11',
+26 silly addNameRange     '3.9.0' ] ]
+27 verbose addNamed [ 'gulp', '3.9.0' ]
+28 verbose addNamed [ '3.9.0', '3.9.0' ]
+29 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+30 verbose lock gulp@3.9.0 /home/indy/.npm/c2697a61-gulp-3-9-0.lock
+31 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+32 verbose lock https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz /home/indy/.npm/af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz.lock
+33 verbose addRemoteTarball [ 'https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz',
+33 verbose addRemoteTarball   'cf1fba4cb558bb8c6ae6c9613f583ae2620d214a' ]
+34 info retry fetch attempt 1 at 12:41:11
+35 verbose fetch to= /home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz
+36 http GET https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+37 http 200 https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+38 verbose tar unpack /home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz
+39 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+40 verbose lock tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package /home/indy/.npm/9ac4d81e-1027-0-20853693690150976-package.lock
+41 silly lockFile ae283ee4-1027-0-20853693690150976-tmp-tgz tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz
+42 verbose lock tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz /home/indy/.npm/ae283ee4-1027-0-20853693690150976-tmp-tgz.lock
+43 silly gunzTarPerm modes [ '755', '644' ]
+44 silly gunzTarPerm extractEntry package.json
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry index.js
+48 silly gunzTarPerm extractEntry CHANGELOG.md
+49 silly gunzTarPerm extractEntry bin/gulp.js
+50 silly gunzTarPerm extractEntry completion/README.md
+51 silly gunzTarPerm extractEntry completion/bash
+52 silly gunzTarPerm extractEntry completion/fish
+53 silly gunzTarPerm extractEntry completion/powershell
+54 silly gunzTarPerm extractEntry completion/zsh
+55 silly gunzTarPerm extractEntry lib/completion.js
+56 silly gunzTarPerm extractEntry lib/taskTree.js
+57 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+58 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+59 silly lockFile ae283ee4-1027-0-20853693690150976-tmp-tgz tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz
+60 silly lockFile ae283ee4-1027-0-20853693690150976-tmp-tgz tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/tmp.tgz
+61 verbose tar pack [ '/home/indy/.npm/gulp/3.9.0/package.tgz',
+61 verbose tar pack   '/home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package' ]
+62 verbose tarball /home/indy/.npm/gulp/3.9.0/package.tgz
+63 verbose folder /home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+64 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+65 verbose lock tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package /home/indy/.npm/9ac4d81e-1027-0-20853693690150976-package.lock
+66 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+67 verbose lock tar:///home/indy/.npm/gulp/3.9.0/package.tgz /home/indy/.npm/aff4654f--indy-npm-gulp-3-9-0-package-tgz.lock
+68 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+69 silly lockFile 9ac4d81e-1027-0-20853693690150976-package tar:///home/indy/tmp/npm-12472-_JEDW1AC/1450172471027-0.20853693690150976/package
+70 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+71 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+72 silly lockFile 0fff61d8-home-indy-npm-gulp-3-9-0-package /home/indy/.npm/gulp/3.9.0/package
+73 verbose lock /home/indy/.npm/gulp/3.9.0/package /home/indy/.npm/0fff61d8-home-indy-npm-gulp-3-9-0-package.lock
+74 silly lockFile 0fff61d8-home-indy-npm-gulp-3-9-0-package /home/indy/.npm/gulp/3.9.0/package
+75 silly lockFile 0fff61d8-home-indy-npm-gulp-3-9-0-package /home/indy/.npm/gulp/3.9.0/package
+76 verbose tar unpack /home/indy/.npm/gulp/3.9.0/package.tgz
+77 silly lockFile 16b03035-home-indy-npm-gulp-3-9-0-package tar:///home/indy/.npm/gulp/3.9.0/package
+78 verbose lock tar:///home/indy/.npm/gulp/3.9.0/package /home/indy/.npm/16b03035-home-indy-npm-gulp-3-9-0-package.lock
+79 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+80 verbose lock tar:///home/indy/.npm/gulp/3.9.0/package.tgz /home/indy/.npm/aff4654f--indy-npm-gulp-3-9-0-package-tgz.lock
+81 silly gunzTarPerm modes [ '755', '644' ]
+82 silly gunzTarPerm extractEntry package.json
+83 silly gunzTarPerm extractEntry README.md
+84 silly gunzTarPerm extractEntry index.js
+85 silly gunzTarPerm extractEntry bin/gulp.js
+86 silly gunzTarPerm extractEntry completion/README.md
+87 silly gunzTarPerm extractEntry completion/bash
+88 silly gunzTarPerm extractEntry completion/fish
+89 silly gunzTarPerm extractEntry completion/powershell
+90 silly gunzTarPerm extractEntry completion/zsh
+91 silly gunzTarPerm extractEntry lib/completion.js
+92 silly gunzTarPerm extractEntry lib/taskTree.js
+93 silly lockFile 16b03035-home-indy-npm-gulp-3-9-0-package tar:///home/indy/.npm/gulp/3.9.0/package
+94 silly lockFile 16b03035-home-indy-npm-gulp-3-9-0-package tar:///home/indy/.npm/gulp/3.9.0/package
+95 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+96 silly lockFile aff4654f--indy-npm-gulp-3-9-0-package-tgz tar:///home/indy/.npm/gulp/3.9.0/package.tgz
+97 verbose chmod /home/indy/.npm/gulp/3.9.0/package.tgz 644
+98 verbose chown /home/indy/.npm/gulp/3.9.0/package.tgz [ 1000, 1000 ]
+99 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+100 silly lockFile af4766b8-ry-npmjs-org-gulp-gulp-3-9-0-tgz https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz
+101 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+102 silly lockFile c2697a61-gulp-3-9-0 gulp@3.9.0
+103 silly lockFile 72f4391e-gulp gulp@
+104 silly lockFile 72f4391e-gulp gulp@
+105 silly resolved [ { name: 'gulp',
+105 silly resolved     description: 'The streaming build system',
+105 silly resolved     version: '3.9.0',
+105 silly resolved     homepage: 'http://gulpjs.com',
+105 silly resolved     repository: { type: 'git', url: 'git://github.com/gulpjs/gulp' },
+105 silly resolved     author:
+105 silly resolved      { name: 'Fractal',
+105 silly resolved        email: 'contact@wearefractal.com',
+105 silly resolved        url: 'http://wearefractal.com/' },
+105 silly resolved     tags: [ 'build', 'stream', 'system', 'make', 'tool', 'asset', 'pipeline' ],
+105 silly resolved     files: [ 'index.js', 'lib', 'bin', 'completion' ],
+105 silly resolved     bin: { gulp: './bin/gulp.js' },
+105 silly resolved     man: [ 'gulp.1' ],
+105 silly resolved     dependencies:
+105 silly resolved      { archy: '^1.0.0',
+105 silly resolved        chalk: '^1.0.0',
+105 silly resolved        deprecated: '^0.0.1',
+105 silly resolved        'gulp-util': '^3.0.0',
+105 silly resolved        interpret: '^0.6.2',
+105 silly resolved        liftoff: '^2.1.0',
+105 silly resolved        minimist: '^1.1.0',
+105 silly resolved        orchestrator: '^0.3.0',
+105 silly resolved        'pretty-hrtime': '^1.0.0',
+105 silly resolved        semver: '^4.1.0',
+105 silly resolved        tildify: '^1.0.0',
+105 silly resolved        v8flags: '^2.0.2',
+105 silly resolved        'vinyl-fs': '^0.3.0' },
+105 silly resolved     devDependencies:
+105 silly resolved      { coveralls: '^2.7.0',
+105 silly resolved        'graceful-fs': '^3.0.0',
+105 silly resolved        istanbul: '^0.3.0',
+105 silly resolved        jscs: '~1.12.0',
+105 silly resolved        jshint: '^2.5.0',
+105 silly resolved        'jshint-stylish': '^1.0.0',
+105 silly resolved        'marked-man': '^0.1.3',
+105 silly resolved        mkdirp: '^0.5.0',
+105 silly resolved        mocha: '^2.0.1',
+105 silly resolved        'mocha-lcov-reporter': '^0.0.1',
+105 silly resolved        q: '^1.0.0',
+105 silly resolved        rimraf: '^2.2.5',
+105 silly resolved        should: '^5.0.1' },
+105 silly resolved     scripts:
+105 silly resolved      { prepublish: 'marked-man --name gulp docs/CLI.md > gulp.1',
+105 silly resolved        lint: 'jshint lib bin test index.js --reporter node_modules/jshint-stylish/stylish.js --exclude node_modules && jscs lib bin test index.js',
+105 silly resolved        test: 'npm run-script lint && mocha --reporter spec',
+105 silly resolved        coveralls: 'istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage' },
+105 silly resolved     engines: { node: '>= 0.9' },
+105 silly resolved     license: 'MIT',
+105 silly resolved     readme: '<p align="center">\n  <a href="http://gulpjs.com">\n    <img height="257" width="114" src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png">\n  </a>\n</p>\n\n# gulp\n**The streaming build system**\n\n[![NPM version][npm-image]][npm-url] [![Downloads][downloads-image]][npm-url] [![Support us][gittip-image]][gittip-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url] [![Gitter chat][gitter-image]][gitter-url]\n\n## Like what we do?\n\n[Support us via Gratipay](https://gratipay.com/WeAreFractal/)\n\n## Documentation\n\nFor a Getting started guide, API docs, recipes, making a plugin, etc. see the [documentation page](/docs/README.md)!\n\n## Sample `gulpfile.js`\n\nThis file is just a quick sample to give you a taste of what gulp does.\n\n```js\nvar gulp = require(\'gulp\');\nvar coffee = require(\'gulp-coffee\');\nvar concat = require(\'gulp-concat\');\nvar uglify = require(\'gulp-uglify\');\nvar imagemin = require(\'gulp-imagemin\');\nvar sourcemaps = require(\'gulp-sourcemaps\');\nvar del = require(\'del\');\n\nvar paths = {\n  scripts: [\'client/js/**/*.coffee\', \'!client/external/**/*.coffee\'],\n  images: \'client/img/**/*\'\n};\n\n// Not all tasks need to use streams\n// A gulpfile is just another node program and you can use all packages available on npm\ngulp.task(\'clean\', function(cb) {\n  // You can use multiple globbing patterns as you would with `gulp.src`\n  del([\'build\'], cb);\n});\n\ngulp.task(\'scripts\', [\'clean\'], function() {\n  // Minify and copy all JavaScript (except vendor scripts)\n  // with sourcemaps all the way down\n  return gulp.src(paths.scripts)\n    .pipe(sourcemaps.init())\n      .pipe(coffee())\n      .pipe(uglify())\n      .pipe(concat(\'all.min.js\'))\n    .pipe(sourcemaps.write())\n    .pipe(gulp.dest(\'build/js\'));\n});\n\n// Copy all static images\ngulp.task(\'images\', [\'clean\'], function() {\n  return gulp.src(paths.images)\n    // Pass in options to the task\n    .pipe(imagemin({optimizationLevel: 5}))\n    .pipe(gulp.dest(\'build/img\'));\n});\n\n// Rerun the task when a file changes\ngulp.task(\'watch\', function() {\n  gulp.watch(paths.scripts, [\'scripts\']);\n  gulp.watch(paths.images, [\'images\']);\n});\n\n// The default task (called when you run `gulp` from cli)\ngulp.task(\'default\', [\'watch\', \'scripts\', \'images\']);\n```\n\n## Incremental Builds\n\nWe recommend these plugins:\n\n- [gulp-changed](https://github.com/sindresorhus/gulp-changed) - only pass through changed files\n- [gulp-cached](https://github.com/wearefractal/gulp-cached) - in-memory file cache, not for operation on sets of files\n- [gulp-remember](https://github.com/ahaurw01/gulp-remember) - pairs nicely with gulp-cached\n- [gulp-newer](https://github.com/tschaub/gulp-newer) - pass through newer source files only, supports many:1 source:dest\n\n## Want to contribute?\n\nAnyone can help make this project better - check out the [Contributing guide](/CONTRIBUTING.md)!\n\n\n[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/wearefractal/gulp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")\n\n[gittip-url]: https://www.gittip.com/WeAreFractal/\n[gittip-image]: http://img.shields.io/gittip/WeAreFractal.svg\n\n[downloads-image]: http://img.shields.io/npm/dm/gulp.svg\n[npm-url]: https://npmjs.org/package/gulp\n[npm-image]: http://img.shields.io/npm/v/gulp.svg\n\n[travis-url]: https://travis-ci.org/gulpjs/gulp\n[travis-image]: http://img.shields.io/travis/gulpjs/gulp.svg\n\n[coveralls-url]: https://coveralls.io/r/gulpjs/gulp\n[coveralls-image]: http://img.shields.io/coveralls/gulpjs/gulp/master.svg\n\n[gitter-url]: https://gitter.im/gulpjs/gulp\n[gitter-image]: https://badges.gitter.im/gulpjs/gulp.png\n',
+105 silly resolved     readmeFilename: 'README.md',
+105 silly resolved     bugs: { url: 'https://github.com/gulpjs/gulp/issues' },
+105 silly resolved     _id: 'gulp@3.9.0',
+105 silly resolved     dist: { shasum: '8c53f1b35a6aefc434b39334484c4f71efa90dc6' },
+105 silly resolved     _from: 'gulp@',
+105 silly resolved     _resolved: 'https://registry.npmjs.org/gulp/-/gulp-3.9.0.tgz' } ]
+106 info install gulp@3.9.0 into /home/indy/Dropbox/WebServers/port
+107 info installOne gulp@3.9.0
+108 info /home/indy/Dropbox/WebServers/port/node_modules/gulp unbuild
+109 info preuninstall gulp@3.9.0
+110 info uninstall gulp@3.9.0
+111 verbose true,/home/indy/Dropbox/WebServers/port/node_modules,/home/indy/Dropbox/WebServers/port/node_modules unbuild gulp@3.9.0
+112 verbose /home/indy/Dropbox/WebServers/port/node_modules/.bin,[object Object] binRoot
+113 info /home/indy/Dropbox/WebServers/port/node_modules/gulp unbuild
+114 info preuninstall gulp@3.9.0
+115 info uninstall gulp@3.9.0
+116 verbose true,/home/indy/Dropbox/WebServers/port/node_modules,/home/indy/Dropbox/WebServers/port/node_modules unbuild gulp@3.9.0
+117 verbose /home/indy/Dropbox/WebServers/port/node_modules/.bin,[object Object] binRoot
+118 error error rolling back Error: Refusing to delete: /home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp not in /home/indy/Dropbox/WebServers/port/node_modules/gulp
+118 error error rolling back     at clobberFail (/usr/share/npm/lib/utils/gently-rm.js:41:12)
+118 error error rolling back     at next (/usr/share/npm/lib/utils/gently-rm.js:27:14)
+118 error error rolling back     at /usr/share/npm/lib/utils/gently-rm.js:21:30
+118 error error rolling back     at Object.oncomplete (fs.js:107:15)
+118 error error rolling back  gulp@3.9.0 { [Error: Refusing to delete: /home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp not in /home/indy/Dropbox/WebServers/port/node_modules/gulp]
+118 error error rolling back   code: 'EEXIST',
+118 error error rolling back   path: '/home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp' }
+119 error Refusing to delete: /home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp not in /home/indy/Dropbox/WebServers/port/node_modules/gulp
+File exists: /home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp
+Move it away, and try again.
+120 error System Linux 3.19.0-33-generic
+121 error command "/usr/bin/nodejs" "/usr/bin/npm" "i" "gulp" "-D"
+122 error cwd /home/indy/Dropbox/WebServers/port
+123 error node -v v0.10.25
+124 error npm -v 1.3.10
+125 error path /home/indy/Dropbox/WebServers/port/node_modules/.bin/gulp
+126 error code EEXIST
+127 verbose exit [ 1, true ]

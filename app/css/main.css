@@ -31,7 +31,7 @@ body {
     height: 90px;
     width: 100%;
     position: relative;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .page-header:after {
@@ -44,7 +44,7 @@ body {
 .page-header .header-logo-link {
     position: absolute;
     top: 10px;
-    left: 0;
+    left: 10px;
 }
 
 .page-header .header-logo-text {
@@ -75,7 +75,7 @@ body {
     display: inline-block;
     height: 44px;
     width: 42px;
-    margin-left: 10px;
+    margin-left: 3px;
 }
 
 .socials .social-icon:first-child {
@@ -204,9 +204,8 @@ body {
     display: block;
     float: left;
     width: 250px;
-    height: 170px;
     background: #f8f7f6;
-    margin-bottom: 35px;
+    margin-bottom: 31px;
     border: 1px solid #c3c3c3;
     border-radius: 6px;
     -webkit-border-radius: 6px;
@@ -214,22 +213,9 @@ body {
     overflow: hidden;
 }
 
-.contacts {
-    display: block;
-    float: left;
-    clear: left;
-    width: 250px;
-    background: #f9f9f9;
-    margin-bottom: 35px;
-    border-radius: 6px;
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    overflow: hidden;
-}
 
 .navigation-item {
     list-style-type: none;
-    height: 57px;
     width: 250px;
     background-image: -moz-linear-gradient( 90deg, rgb(233, 230, 229) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(233, 230, 229) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
@@ -237,9 +223,6 @@ body {
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
 }
 
-.contacts-list-item {
-    list-style-type: none;
-}
 
 .navigtion-list {
     margin: 0;
@@ -251,8 +234,8 @@ body {
     height: 57px;
     width: 250px;
     text-decoration: none;
-    padding-left: 20px;
-    padding-top: 20px;
+    padding-left: 28px;
+    padding-top: 17px;
     border-bottom: 1px solid #c3c3c3;
     font-size: 20px;
     font-family: 'open_sanssemibold';
@@ -280,6 +263,23 @@ body {
 
 /*Блок контактов - начало*/
 
+.contacts-list-item {
+    list-style-type: none;
+}
+
+.contacts {
+    display: block;
+    float: left;
+    clear: left;
+    width: 250px;
+    background: #f9f9f9;
+    margin-bottom: 35px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    overflow: hidden;
+}
+
 .contacts-list {
     padding: 0;
     margin: 0;
@@ -304,10 +304,6 @@ body {
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.17), inset 0px 1px 0px 0px rgba(255, 255, 255, 0.25);
     font-size: 20px;
     font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.eot');
-    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
     color: rgb(208, 152, 44);
     line-height: 1.1;
     text-align: left;
@@ -329,16 +325,14 @@ body {
 
 .contacts-link {
     display: block;
+  /*  float: left;*/
     height: 38px;
     width: 250px;
     text-decoration: none;
-    line-height: 1.2;
+/*    line-height: 1.4;*/
     color: #727070;
     font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.eot');
-    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-size: 14px;
 }
 
 
@@ -354,6 +348,7 @@ body {
     display: block;
     float: left;
     margin-left: 20px;
+    margin-right: 18px;
     width: 40px;
     height: 38px;
     background: url(../img/spritesheet.png) -527px -5px;
@@ -364,6 +359,7 @@ body {
     display: block;
     float: left;
     margin-left: 20px;
+    margin-right: 18px;
     width: 40px;
     height: 38px;
     background: url(../img/spritesheet.png) -705px -5px;
@@ -374,6 +370,7 @@ body {
     display: block;
     float: left;
     margin-left: 20px;
+    margin-right: 18px;
     width: 40px;
     height: 38px;
     background: url(../img/spritesheet.png) -477px -5px;
@@ -384,7 +381,7 @@ body {
     float: left;
     width: 20px;
     margin-left: 20px;
-    margin-top: 10px;
+    margin-top: 8px;
     padding: 0;
 }
 
@@ -397,7 +394,7 @@ body {
 .wrapper {
     position: relative;
     min-height: 100%;
-    min-width: 970px;
+    min-width: 960px;
     height: auto!important;
 }
 
@@ -426,7 +423,7 @@ body {
 .footer-wrap {
     height: 50px;
     width: 960px;
-    padding-left: 200px;
+    padding-left: 170px;
     margin: 0 auto;
 }
 
@@ -444,13 +441,9 @@ body {
     display: inline-block;
     float: left;
     margin: 0;
-    padding-left: 30px;
-    padding-top: 17px;
+    padding-left: 59px;
+    padding-top: 22px;
     font-family: 'open_sanslight';
-    src: url('opensans-light-webfont.eot');
-    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
     font-size: 12px;
 }
 
@@ -458,15 +451,11 @@ body {
 .login-link {
     display: inline-block;
     float: left;
-    margin-top: 10px;
-    padding-left: 30px;
+    margin-top: 16px;
+    padding-left: 26px;
     padding-top: 7px;
     text-decoration: none;
-    font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.eot');
-    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'open_sansbold';
     font-size: 14px;
     color: #9c9c9c;
     font-weight: bold;
