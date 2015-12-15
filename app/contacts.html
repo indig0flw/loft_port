@@ -34,6 +34,9 @@
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
     <link rel="stylesheet" href="css/contacts.css">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
     <!-- Modernizr -->
     <script src="bower/modernizr/modernizr.js"></script>
 </head>
@@ -87,7 +90,7 @@
                         </li>
                         <li class="contacts-list-item "><a href="tel:+79651860727" class="contacts-link phone-item"><span class="contacts-content-span">+79651860727</span></a>
                         </li>
-                        <li class="contacts-list-item"><a href="http://www.skype.com/" class="contacts-link skype-item"><span class="contacts-content-span">indig0flw</span></a>
+                        <li class="contacts-list-item"><a href="skype:indig0flw?call" class="contacts-link skype-item"><span class="contacts-content-span">indig0flw</span></a>
                         </li>
                     </ul>
                 </nav>
@@ -113,7 +116,7 @@
                             <label class="label" for="message">Сообщение</label>
                             <textarea class="input-item textarea" name="message" placeholder="Кратко в чём суть"></textarea>
                         </div>
-                        <div class="contacts-form-wrap">
+                        <div class="contacts-form-wrap push-buttons-down">
                             <label class="label" for="captcha">Введите код, указанный на картинке</label>
                             <div class="captcha-wrap"></div>
                             <input class="input-item captcha-input" type="text" name="captcha" placeholder="Введите код" />
@@ -137,6 +140,7 @@
     </footer>
     <script src="bower/jquery/dist/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/placeholder.js"></script>
 </body>
 
 </html>

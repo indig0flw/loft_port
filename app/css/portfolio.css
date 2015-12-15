@@ -3,8 +3,13 @@
 }
 
 .site-info-main {
-    width: 600px;
+    width: 100%;
     margin: 0 auto;
+    display: table;
+}
+
+.site-info-line-wrapper {
+    display: table-row;
 }
 
 .site-image-link {
@@ -14,6 +19,7 @@
 }
 
 .site-info-wrapper {
+    display: table-cell;
     width: 165px;
     border: 1px solid #c4c4c4;
     float: left;
@@ -23,9 +29,13 @@
     background-image: -ms-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07);
     overflow: hidden;
-    margin-bottom: 65px;
-    margin-right: 15px;
-    margin-left: 15px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+    margin-left: 43px;
+}
+
+.no-margin-left {
+    margin-left: 0px;
 }
 
 .site-image {
@@ -53,37 +63,29 @@
 .site-description {
     width: 165px;
     display: inline-block;
-    margin: 0;
+    /*  margin: 0;*/
     background: #fff;
     font-family: 'open_sanslight';
-    src: url('opensans-light-webfont.eot');
-    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
     font-size: 12px;
     text-align: center;
+    color: rgb(114, 112, 112);
+    line-height: 1.4;
+    padding: 5px;
 }
-
 
 .site-link {
     text-decoration: none;
     display: block;
     color: #727070;
+    height: 33px;
     background-color: rgba(65, 64, 64, 0.071);
     font-size: 13px;
-    font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.eot');
-    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'open_sansbold';
     line-height: 1.692;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
-    -moz-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
-    -webkit-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
-    -ms-transform: matrix( 1.02802275960171, 0, 0, 1.02714914341595, 0, 0);
     text-align: center;
+    padding-top: 7px;
 }
-
 
 .site-link:hover {
     text-decoration: underline;
@@ -94,35 +96,56 @@
     float: left;
     overflow: hidden;
     margin-bottom: 35px;
-    margin-left: 15px;
-    width: 168px;
-    height: 137px;
-    background: url(../img/add-new.png);
-    opacity: 0.41
+    opacity: 0.41;
+    border-radius: 5px;
+    background-image: -moz-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(237, 235, 234) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
+    box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
+    width: 166px;
+    height: 133px;
 }
 
 .add-new:hover {
-    opacity: 1
+    opacity: 1;
+    text-decoration: underline;
 }
 
 .add-new-link {
     display: block;
-    width: 168px;
-    height: 137px;
+    padding-left: 20px;
+    padding-top: 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "open_sansbold";
+    color: rgb(114, 112, 112);
+    line-height: 1.571;
+    text-align: left;
+    text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
+}
+
+.add-new-link:before {
+    display: block;
+    content: "";
+    width: 54px;
+    height: 55px;
+    margin-left: 35px;
+    margin-bottom: 5px;
+    background: url(../img/add-new-s.png);
 }
 
 .site-two {
-	background: url(../img/site-two.png);
+    background: url(../img/site-two.png);
 }
 
 .site-three {
-	background: url(../img/site-three.png);
+    background: url(../img/site-three.png);
 }
 
 .site-four {
-	background: url(../img/site-four.png);
+    background: url(../img/site-four.png);
 }
 
 .site-five {
-	background: url(../img/site-five.png);
+    background: url(../img/site-five.png);
 }

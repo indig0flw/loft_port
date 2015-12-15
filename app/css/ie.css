@@ -1,0 +1,26 @@
+.content-header {
+	background-color: #848181;
+}
+
+.contacts-header {
+	background-color: #ecc474;
+}
+
+.contacts-link:hover {
+	background-color: #f9f4ea;
+}
+
+.navigation-item:hover {
+	background-color: #f2efef;
+}
+
+.current {
+	background-color: #50c5a8s;
+}
+
+ .photo-box {
+     border: 10px solid #918f8f;
+
+  }
+
+  

@@ -8,8 +8,7 @@
 .contacts-form-wrap {
     float: left;
     width: 400px;
-    margin-bottom: 15px;
-    /*    margin-top: 35px;*/
+    margin-bottom: 12px;
 }
 
 .name-input-item {
@@ -24,11 +23,7 @@
     display: block;
     font-size: 14px;
     font-family: 'open_sansregular', sans-serif;
-    src: url('opensans-regular-webfont.eot');
-    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-regular-webfont.woff2') format('woff2'), url('opensans-regular-webfont.woff') format('woff'), url('opensans-regular-webfont.ttf') format('truetype'), url('opensans-regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 .input-item {
@@ -42,12 +37,9 @@
     box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.35), inset 0px 2px 2px 0px rgba(114, 112, 112, 0.1);
     font-size: 12px;
     font-family: 'open_sanslight';
-    src: url('opensans-light-webfont.eot');
-    src: url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-light-webfont.woff2') format('woff2'), url('opensans-light-webfont.woff') format('woff'), url('opensans-light-webfont.ttf') format('truetype'), url('opensans-light-webfont.svg#open_sanslight') format('svg');
-    font-weight: normal;
-    font-style: normal;
     height: 40px;
     width: 190px;
+    padding-left: 9px;
 }
 
 
@@ -55,7 +47,7 @@
     height: 183px;
     width: 100%;
     resize: none;
-    padding: 8px 5px 8px 5px;
+    padding-top: 9px;
 }
 
 .captcha-wrap {
@@ -72,12 +64,14 @@
 .captcha-input {
     width: 190px;
     float: right;
-    padding: 5px 30px 5px 5px;
+    margin-top: 17px;
+    height: 33px;
+    /*padding: 5px 30px 5px 5px;*/
 }
 
 .buttons {
     display: inline-block;
-    padding: 8px 25px 8px 25px;
+    padding: 8px 20px 8px 20px;
     border-radius: 4px;
     border: none;
     outline: none;
@@ -119,6 +113,8 @@
     float: right;
     border: 1px solid #b6b6b6;
     margin-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
     border-radius: 5px;
     background-image: -moz-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
     background-image: -webkit-linear-gradient( 90deg, rgb(233, 230, 228) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
@@ -143,6 +139,12 @@
     background-image: -ms-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
     box-shadow: inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
     border: 1px solid #c3c3c3;
+}
+
+
+.push-buttons-down {
+    margin-bottom: 20px;
+
 }
 
 ::-webkit-input-placeholder {

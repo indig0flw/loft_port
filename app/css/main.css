@@ -171,17 +171,12 @@ body {
     background-image: -ms-linear-gradient( 90deg, rgb(123, 120, 120) 0%, rgb(169, 168, 168) 100%);
     box-shadow: inset 0px 1px 0px 0px rgba(255, 255, 255, 0.3);
     font-family: 'open_sanssemibold';
-    src: url('opensans-semibold-webfont.eot');
-    src: url('opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'), url('opensans-semibold-webfont.woff2') format('woff2'), url('opensans-semibold-webfont.woff') format('woff'), url('opensans-semibold-webfont.ttf') format('truetype'), url('opensans-semibold-webfont.svg#open_sanssemibold') format('svg');
-    font-weight: normal;
-    font-style: normal;
     font-size: 24px;
     color: rgb(238, 237, 236);
     line-height: 0.917;
     text-align: left;
     text-shadow: 0px 1px 0px rgba(102, 101, 101, 0.004);
 }
-
 
 
 /*Эффекты контента -конец*/
@@ -213,7 +208,6 @@ body {
     overflow: hidden;
 }
 
-
 .navigation-item {
     list-style-type: none;
     width: 250px;
@@ -222,7 +216,6 @@ body {
     background-image: -ms-linear-gradient( 90deg, rgb(233, 230, 229) 0%, rgb(251, 249, 249) 94%, rgb(255, 255, 255) 100%);
     box-shadow: 0px 2px 1px 0px rgba(9, 9, 9, 0.07), inset 0px -2px 3px 0px rgba(41, 41, 41, 0.05);
 }
-
 
 .navigtion-list {
     margin: 0;
@@ -248,7 +241,6 @@ body {
     text-align: left;
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.75);
 }
-
 
 .navigation-link:hover {
     background-image: -moz-linear-gradient( 90deg, rgb(194, 192, 192) 0%, rgb(227, 225, 225) 87%, rgb(230, 228, 228) 90%, rgb(232, 231, 231) 100%);
@@ -310,7 +302,6 @@ body {
     text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.4);
 }
 
-
 .contacts-list-item {
     padding: 0;
     margin: 0;
@@ -325,16 +316,13 @@ body {
 
 .contacts-link {
     display: block;
-  /*  float: left;*/
     height: 38px;
     width: 250px;
     text-decoration: none;
-/*    line-height: 1.4;*/
     color: #727070;
     font-family: 'open_sanssemibold';
     font-size: 14px;
 }
-
 
 .contacts-link:hover {
     background-image: -moz-linear-gradient( 90deg, rgb(224, 197, 145) 0%, rgba(251, 249, 249, 0) 100%);
@@ -392,28 +380,28 @@ body {
 /*Футер внизу - начало*/
 
 .wrapper {
-    position: relative;
     min-height: 100%;
     min-width: 960px;
     height: auto!important;
+    height: 100%;
+    margin-bottom: -61px;
 }
 
 .wrapper:after {
     content: "";
-    height: 61px;
-    display: block;
+    display: table;
     clear: both;
-    z-index: 1;
+    height: 61px;
 }
 
 .page-footer {
-    display: block;
-    min-width: 970px;
+    clear: both;
+    min-width: 960px;
     height: 61px;
     margin-top: -61px;
     background-color: #fff;
+    z-index: 200;
 }
-
 
 /*Футер внизу - конец*/
 
@@ -421,7 +409,7 @@ body {
 /*Футер контент - начало*/
 
 .footer-wrap {
-    height: 50px;
+    height: 100%;
     width: 960px;
     padding-left: 170px;
     margin: 0 auto;
@@ -447,7 +435,6 @@ body {
     font-size: 12px;
 }
 
-
 .login-link {
     display: inline-block;
     float: left;
@@ -463,11 +450,9 @@ body {
     text-align: left;
     text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.85);
     cursor: pointer;
-    z-index: 200;
     background: url(../img/locked.png) no-repeat;
     background-position: left center;
 }
-
 
 .login-link:hover {
     background: url(../img/unlocked.png) no-repeat left center;
