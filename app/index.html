@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about-me.css">
     <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/login.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
@@ -171,6 +172,37 @@
                 </article>
             </section>
             <!-- Здесь заканчивается контентная часть -->
+                    <!-- Login begininig -->
+        <div class="login-wrapper">
+            <div class="login-header">
+                <h4 class="login-title">Авторизация</h4>
+            </div>
+            <div class="login-body">
+                <form action="" id="login-form-selector" role="form" class="login-form">
+                    <div class="server-mes error-mes"></div>
+                    <div class="server-mes success-mes"></div>
+                    <div class="form-group">
+                        <label for="projectName" class="login-label-mail"></label>
+                        <input id="projectName" name="projectName" placeholder="Введите Email" qtip-content="Вы не ввели email" type="text" class="login-item">
+                    </div>
+                </form>
+                <form action="" id="login-form-selector" role="form" class="login-form">
+                    <div class="server-mes error-mes"></div>
+                    <div class="server-mes success-mes"></div>
+                    <div class="form-group">
+                        <label for="projectName" class="login-label-pass"></label>
+                        <input id="projectName" name="projectName" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" type="text" class="login-item second-field">
+                    </div>
+                    <div id="loginForm" class="checkbox">
+                        <form action="" class="checkbox-form">
+                            <input id="check1" type="checkbox" name="check" value="check1">
+                            <label for="check1" class="check-label"><span class="little-padding">Запомнить меня?</span></label>
+                        </form>
+                    </div>
+                    <button class="submit-button" type="submit">Войти</button>
+            </div>
+        </div>
+        <!-- Login end -->
         </div>
     </div>
     <footer class="page-footer">
@@ -181,6 +213,8 @@
     </footer>
     <script src="bower/jquery/dist/jquery.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/placeholder.js"></script>
+       <script src="bower/bPopup/jquery.bpopup.js"></script>
 </body>
 
 </html>
