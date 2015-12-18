@@ -98,7 +98,7 @@
     /*Инпуты конец*/
     /* Сабмит начало*/
     
-    .submit-button {
+    .login-button {
         display: block;
         float: left;
         width: 150px;
@@ -114,7 +114,7 @@
         font-family: 'open_sanssemibold', sans-serif;
     }
     
-    .submit-button:hover {
+    .login-button:hover {
         border-radius: 5px;
         background-image: -moz-linear-gradient( 90deg, rgb(58, 160, 135) 0%, rgb(95, 220, 189) 100%);
         background-image: -webkit-linear-gradient( 90deg, rgb(58, 160, 135) 0%, rgb(95, 220, 189) 100%);
