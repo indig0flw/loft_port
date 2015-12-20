@@ -24,7 +24,6 @@
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="favicon/manifest.json">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -32,10 +31,11 @@
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about-me.css">
-    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/portfolio.css">
     <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="css/ie.css">
     <![endif]-->
@@ -156,36 +156,36 @@
                 </div>
                 <div class="modal-body">
                     <div class="b-close"></div>
-                    <form action="" id="add-new-project" role="form" class="add-new-form">
+                    <form action="#" class="add-new-form">
                         <div class="server-mes error-mes"></div>
                         <div class="server-mes success-mes"></div>
                         <div class="form-group">
-                            <label for="projectName" class="modal-label">Название проекта</label>
-                            <input id="projectName" name="projectName" placeholder="Введите название" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
+                            <label class="modal-label">Название проекта</label>
+                            <input name="projectName" placeholder="Введите название" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
                         </div>
                     </form>
-                    <form action="" id="add-new-project" role="form" class="add-new-form">
+                    <form action="#" class="add-new-form">
                         <div class="server-mes error-mes"></div>
                         <div class="server-mes success-mes"></div>
                         <div class="form-group">
-                            <label for="projectName" class="modal-label">Картинка проекта</label>
-                            <input id="projectName" name="projectName" placeholder="Загрузите изображение" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
+                            <label class="modal-label">Картинка проекта</label>
+                            <input name="projectName" placeholder="Загрузите изображение" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
                         </div>
                     </form>
-                    <form action="" id="add-new-project" role="form" class="add-new-form">
+                    <form action="#" class="add-new-form">
                         <div class="server-mes error-mes"></div>
                         <div class="server-mes success-mes"></div>
                         <div class="form-group">
-                            <label for="projectName" class="modal-label">URL проекта</label>
-                            <input id="projectName" name="projectName" placeholder="Добавьте ссылку" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
+                            <label class="modal-label">URL проекта</label>
+                            <input name="projectName" placeholder="Добавьте ссылку" qtip-content="Вы не ввели название" type="text" class="input-item-add-new">
                         </div>
                     </form>
-                    <form action="" id="add-new-project" role="form" class="add-new-form">
+                    <form action="#" class="add-new-form">
                         <div class="server-mes error-mes"></div>
                         <div class="server-mes success-mes"></div>
                         <div class="form-group">
-                            <label for="projectName" class="modal-label">Описание</label>
-                            <input id="projectName" name="projectName" placeholder="Пара слов о вашем проекте" qtip-content="Вы не ввели название" type="text" class="input-item-add-new text-item">
+                            <label class="modal-label">Описание</label>
+                            <input name="projectName" placeholder="Пара слов о вашем проекте" qtip-content="Вы не ввели название" type="text" class="input-item-add-new text-item">
                         </div>
                     </form>
                     <button class="submit-button" type="submit">Добавить</button>
@@ -199,23 +199,24 @@
                 <h4 class="login-title">Авторизация</h4>
             </div>
             <div class="login-body">
-                <form action="" id="login-form-selector" role="form" class="login-form">
+                <form action="#" class="login-form">
                     <div class="server-mes error-mes"></div>
                     <div class="server-mes success-mes"></div>
                     <div class="form-group">
-                        <label for="projectName" class="login-label-mail"></label>
-                        <input id="projectName" name="projectName" placeholder="Введите Email" qtip-content="Вы не ввели email" type="text" class="login-item">
+                        <label class="login-label-mail"></label>
+                        <input name="projectName" placeholder="Введите Email" qtip-content="Вы не ввели email" type="text" class="login-item">
                     </div>
                 </form>
-                <form action="" id="login-form-selector" role="form" class="login-form">
+                <form action="#" class="login-form">
                     <div class="server-mes error-mes"></div>
                     <div class="server-mes success-mes"></div>
                     <div class="form-group">
-                        <label for="projectName" class="login-label-pass"></label>
-                        <input id="projectName" name="projectName" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" type="text" class="login-item second-field">
+                        <label class="login-label-pass"></label>
+                        <input name="projectName" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" type="text" class="login-item second-field">
                     </div>
+                </form>
                     <div id="loginForm" class="checkbox">
-                        <form action="" class="checkbox-form">
+                        <form action="#" class="checkbox-form">
                             <input id="check1" type="checkbox" name="check" value="check1">
                             <label for="check1" class="check-label"><span class="little-padding">Запомнить меня?</span></label>
                         </form>
@@ -224,7 +225,6 @@
             </div>
         </div>
         <!-- Login end -->
-    </div>
     </div>
     <footer class="page-footer">
         <div class="footer-wrap">
@@ -236,6 +236,8 @@
     <script src="js/main.js"></script>
     <script src="js/placeholder.js"></script>
     <script src="bower/bPopup/jquery.bpopup.js"></script>
+    <script src="bower/qtip2/jquery.qtip.js"></script>
+    <script src="js/validation.js"></script>
 </body>
 
 </html>

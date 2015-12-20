@@ -25,7 +25,6 @@
     <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="favicon/manifest.json">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -33,7 +32,7 @@
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/about-me.css">
-    <link rel="stylesheet" href="fonts/stylesheet.css">
+    <link rel="stylesheet" href="css/stylesheet.css">
     <link rel="stylesheet" href="css/login.css">
     <!--[if lte IE 8]>
     <link rel="stylesheet" href="css/ie.css">
@@ -137,7 +136,7 @@
                     </div>
                 </article>
                 <article class="content">
-                    <h3 class="content-header">Опыт работы</h3>
+                    <h2 class="content-header">Опыт работы</h2>
                     <ul class="expedu-wrap">
                         <li class="list-text-expedu work-exp">
                             <span class="expedu-span">Millward Brown</span>
@@ -150,7 +149,7 @@
                     </ul>
                 </article>
                 <article class="content">
-                    <h3 class="content-header">Образование</h3>
+                    <h2 class="content-header">Образование</h2>
                     <ul class="expedu-wrap">
                         <li class="list-text-expedu university">
                             <span class="expedu-span">РХТУ им. Менделеева</span>
@@ -178,26 +177,26 @@
                 <h4 class="login-title">Авторизация</h4>
             </div>
             <div class="login-body">
-                <form action="" id="login-form-selector" role="form" class="login-form">
+                <form action="#" id="login-form-selector-mail" class="login-form">
                     <div class="server-mes error-mes"></div>
                     <div class="server-mes success-mes"></div>
                     <div class="form-group">
-                        <label for="projectName" class="login-label-mail"></label>
-                        <input id="projectName" name="projectName" placeholder="Введите Email" qtip-content="Вы не ввели email" type="text" class="login-item">
+                        <label class="login-label-mail"></label>
+                        <input name="projectName" placeholder="Введите Email" qtip-content="Вы не ввели email" type="text" class="login-item">
                     </div>
                 </form>
-                <form action="" id="login-form-selector" role="form" class="login-form">
+                <form action="#" id="login-form-selector-pass" class="login-form">
                     <div class="server-mes error-mes"></div>
                     <div class="server-mes success-mes"></div>
                     <div class="form-group">
-                        <label for="projectName" class="login-label-pass"></label>
-                        <input id="projectName" name="projectName" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" type="text" class="login-item second-field">
+                        <label class="login-label-pass"></label>
+                        <input name="projectName" placeholder="Введите пароль" qtip-content="Вы не ввели пароль" type="text" class="login-item second-field">
                     </div>
+                </form>
                     <div id="loginForm" class="checkbox">
-                        <form action="" class="checkbox-form">
+                        
                             <input id="check1" type="checkbox" name="check" value="check1">
                             <label for="check1" class="check-label"><span class="little-padding">Запомнить меня?</span></label>
-                        </form>
                     </div>
                     <button class="login-button" type="submit">Войти</button>
             </div>
